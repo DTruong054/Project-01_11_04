@@ -4,8 +4,8 @@
    <!--
       Project 01_11_04
       
-      Author: 
-      Date:   
+      Author: Daniel Truong
+      Date:   9.7.18
 
       Filename: address.html
    -->
@@ -26,6 +26,13 @@
    <article>
       <h2>Address</h2>
       <form>
+          <!-- Adding Germany -->
+          <fieldset id="countryset">
+              <label for="germany" id="germanylable">Germany</label>
+              <input type="radio" id="germany" value="germany" name="country" />
+              <label for="us" id="uslabel">United States</label>
+              <input type="radio" name="country" id="us" value="us">
+          </fieldset>
          <fieldset id="zipset">
             <label for="zip" id="ziplabel">Postal Code</label>
             <input id="zip" type="number" />
